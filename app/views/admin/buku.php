@@ -24,8 +24,8 @@
         }
 
         .container {
-            width: 400px;
-            margin: 0 auto;
+            width: 300px;
+            margin-left: 700px;
             padding: 20px;
             background-color: #fff;
             border: 1px solid #ccc;
@@ -40,6 +40,27 @@
             display: block;
             margin-bottom: 5px;
         }
+
+        .button{
+          margin-top: 10px;
+          display: block;
+        background-color: lightgreen;
+        color: black;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        }
+
+        .button:hover{
+          color: white;
+          background-color: black;
+        }
+
+        .content {
+    margin: 0px 0 0 200px;
+    padding: 30px;
+    font-size: 30px;
+  }
 
   </style>
 </head>
@@ -144,7 +165,7 @@
             <label for="cover">Cover:</label>
             <input type="text" name="cover" id="cover" required>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="button">
             
         </form>
     </div>

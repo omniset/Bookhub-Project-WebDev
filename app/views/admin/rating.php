@@ -40,6 +40,12 @@
         .delete-button:hover{
         background-color: red;
         }
+
+        .content {
+          margin: 50px 0 0 500px;
+          padding: 20px;
+          font-size: 15px
+        }
   </style>
 </head>
 

@@ -30,15 +30,28 @@
         color: white;
         border: none;
         border-radius: 3px;
+        transition: box-shadow 0.3s ease;
         }
 
-        .update-button:hover{
-        background-color: yellow;
-        color:black;
-        }
-
+        .update-button:hover,
         .delete-button:hover{
-        background-color: red;
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+        }
+        
+        .update-button{
+          background-color: yellow;
+          color: black;
+        }
+
+        .delete-button{
+          background-color: red;
+          color: white;
+        }
+
+        .content {
+          margin: 50px 0 0 350px;
+          padding: 20px;
+          font-size: 15px
         }
   </style>
 </head>
